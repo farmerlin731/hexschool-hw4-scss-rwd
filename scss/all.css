@@ -1,0 +1,727 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-- Reset done. --*/
+/*-- farmer_0627_base --*/
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  font-family: "Open Sans", "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.5;
+}
+
+/*-- farmer_0627_base Done --*/
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: block;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  background-color: #bd7d21;
+}
+
+.btn-white {
+  color: white;
+  border-color: white;
+}
+
+.product-info h3 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.product-info p {
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+
+.product-info span {
+  font-size: 16px;
+  color: #916019;
+}
+
+.promo-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.promo-info p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.promo-info p span {
+  margin-left: 8px;
+  color: #8D8D8D;
+  text-decoration: line-through;
+}
+
+.nav-bar {
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1110px) {
+  .nav-bar h1 {
+    margin-left: 20px;
+  }
+}
+
+.nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1110px) {
+  .nav-bar ul {
+    display: none;
+  }
+}
+
+.nav-bar ul a {
+  display: block;
+  padding: 16px;
+  font-size: 20px;
+  color: #8D8D8D;
+}
+
+.nav-bar ul a:hover {
+  color: white;
+  background-color: #dc9734;
+}
+
+.nav-bar .mob-i {
+  display: none;
+  font-size: 32px;
+  color: #8D8D8D;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.nav-bar .mob-i i {
+  margin-left: 10px;
+}
+
+@media (max-width: 1110px) {
+  .nav-bar h1 {
+    margin-left: 30px;
+  }
+  .nav-bar .mob-i {
+    display: block;
+  }
+}
+
+.footer {
+  position: relative;
+  height: 600px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer .sub-region {
+  height: 100%;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  top: 0;
+}
+
+@media (max-width: 1110px) {
+  .footer .sub-region {
+    margin-left: 30px;
+  }
+}
+
+.footer .sub-region input {
+  width: 220px;
+  height: 60px;
+  border: 2px #916019 solid;
+  font-size: 16px;
+}
+
+.footer .sub-region h3 {
+  margin-top: 200px;
+  font-size: 32px;
+  color: #8D8D8D;
+  width: 100%;
+  height: 70px;
+}
+
+.footer .sub-region a {
+  margin-bottom: 200px;
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  width: 130px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  background-color: #916019;
+}
+
+.footer .footer-bar {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background-color: #916019;
+  bottom: 0;
+}
+
+.footer .footer-bar .content {
+  max-width: 1110px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-bar .content .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-bar .content .logo img {
+  height: 40px;
+  width: 128px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.footer .footer-bar .content .logo span {
+  font-size: 14px;
+  margin-left: 20px;
+  color: white;
+}
+
+@media (max-width: 1110px) {
+  .footer .footer-bar .content .logo {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footer .footer-bar .content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1110px) {
+  .footer .footer-bar .content ul {
+    display: none;
+  }
+}
+
+.footer .footer-bar .content ul li {
+  color: white;
+  margin-left: 36px;
+  font-size: 20px;
+}
+
+.banner {
+  height: 700px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.banner .banner-content {
+  position: relative;
+  max-width: 1110px;
+  height: 100%;
+}
+
+.banner .banner-content .introduce {
+  width: 450px;
+  padding: 10px;
+  position: absolute;
+  border-radius: 40px;
+  top: 30%;
+  right: 0;
+  color: white;
+}
+
+@media (max-width: 1110px) {
+  .banner .banner-content .introduce {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+.banner .banner-content .introduce h2 {
+  font-size: 40px;
+}
+
+.banner .banner-content .introduce p {
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+
+.brand-list {
+  max-width: 1110px;
+}
+
+.brand-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand-list ul li {
+  max-width: 555px;
+}
+
+.brand-list ul li img {
+  width: 100%;
+  height: 555px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.brand-list ul .mob-image {
+  display: none;
+}
+
+.brand-list ul .pc-image {
+  display: block;
+}
+
+@media (max-width: 1110px) {
+  .brand-list ul .mob-image {
+    display: block;
+  }
+  .brand-list ul .pc-image {
+    display: none;
+  }
+}
+
+.brand-list ul .tag {
+  height: 1110px;
+}
+
+.brand-list ul .training h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.brand-list ul .training p {
+  font-size: 16px;
+  margin-bottom: 52px;
+}
+
+.brand-list ul .product-info, .brand-list ul .training {
+  padding: 110px;
+}
+
+@media (max-width: 1110px) {
+  .brand-list ul .product-info, .brand-list ul .training {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+.promo {
+  background-color: #E0E0E0;
+  padding: 40px;
+}
+
+.promo .item-list {
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1110px) {
+  .promo .item-list {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.promo .item-list li {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.promo .item-list li a {
+  display: block;
+  position: relative;
+}
+
+.promo .item-list li a img {
+  height: 525px;
+}
+
+.promo .item-list li a p {
+  display: none;
+  width: 350px;
+  height: 525px;
+  position: absolute;
+  text-align: center;
+  line-height: 525px;
+  top: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.promo .item-list li a p.sold {
+  display: block;
+}
+
+.recycle {
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1110px) {
+  .recycle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.recycle img {
+  width: 730px;
+}
+
+.recycle .product-info {
+  width: 350px;
+  margin-left: 30px;
+}
+
+@media (max-width: 1110px) {
+  .recycle .product-info {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+.recycle .product-info .tag {
+  font-size: 16px;
+}
+
+.brand-bar {
+  background-color: #916019;
+  width: 100%;
+  height: 52px;
+}
+
+@media (max-width: 1110px) {
+  .brand-bar {
+    display: none;
+  }
+}
+
+.brand-bar .list {
+  max-width: 1110px;
+  width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand-bar .list li {
+  display: block;
+  line-height: 52px;
+  color: white;
+  font-size: 20px;
+  margin-right: 28px;
+}
+
+.product-region {
+  max-width: 1110px;
+  margin-top: 80px;
+}
+
+.product-region .product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 1110px) {
+  .product-region .product-list {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+.product-region .product-list img {
+  width: 255px;
+  height: 255px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-region .product-list .promo-info {
+  margin-bottom: 56px;
+}
+
+.product-region .product-list .promo-info p {
+  margin: 0;
+}
+
+.product-region .product-list .promo-info i {
+  color: #916019;
+  font-size: 20px;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 60px;
+}
+
+.pagination a {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.pagination a.actived {
+  color: #916019;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,49 @@
+.nav-bar{
+    max-width: $pc-width;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile{
+        h1{
+            margin-left: 20px;
+        }
+    }
+    ul{
+        display: flex;
+        @include mobile{
+            display: none;
+        }
+        a{
+            display: block;
+            padding: 16px;
+            font-size: $font-m;
+            color: $gray-2;
+            &:hover{
+                color: white;
+                background-color:  lighten($brown-light,20%);
+            }
+        }
+    }
+
+    .mob-i{
+        display: none;
+        font-size: $font-xl;
+        color: $gray-2;
+        padding: 10px;
+        margin-right: 30px;
+        i{
+            margin-left: 10px;
+        }
+    }
+
+    @include mobile{
+        h1{
+            margin-left: 30px;
+        }
+
+        .mob-i{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+// about structure
+.mb-60{
+    margin-bottom: 60px ;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// about component
+.btn{
+    display: block;
+    font-size: $font-l;
+    line-height: 60px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 40px;
+    &:hover {
+        background-color: lighten($brown-light, 10%);
+    }
+}
+
+.btn-white{
+    color: white;
+    border-color: white;
+}
+
+.product-info {
+    h3 {
+        font-size: $font-xl;
+        font-weight: bold;
+        text-align: left;
+    }
+    p {
+        font-size: $font-m;
+        padding-bottom: 16px;
+    }
+    span {
+        font-size: $font-s;
+        color: $brown-light;
+    }
+}
+
+.promo-info{
+    h3{
+        font-size: $font-l;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+    p{
+        font-size: $font-s;
+        margin-bottom: 16px;
+        span{
+            margin-left: 8px;
+            color: $gray-2;
+            text-decoration: line-through;
+        }
+    }
+}
